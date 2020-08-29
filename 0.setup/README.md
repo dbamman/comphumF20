@@ -1,19 +1,19 @@
-# Download and install Anaconda environment for Python 3.7
+# Download and install Anaconda environment for Python 3.8
 
 https://www.anaconda.com/download/
 
 # Create new anaconda environment for this class
 ```sh
-conda create --name chF20
+conda create --name chF20 python=3
  ```
 
 # Activate environment
 
 ```sh
-source activate chF20
+conda activate chF20
 ```
 
-# Check version (should be 3.7.1)
+# Check version
 
 ```sh
 python --version 
@@ -41,10 +41,10 @@ python -m spacy download en
 
 # Use Jupyter notebooks
 
-That's it! Whenever you're ready to use a Jupyter notebook in this setup, open up the terminal and navigate to the folder containing the notebook; then activate the anlp environment to access these libraries and start up the notebook:
+That's it! Whenever you're ready to use a Jupyter notebook in this setup, open up the terminal and navigate to the folder containing the notebook; then activate the chF20 environment to access these libraries and start up the notebook:
 
 ```sh
-source activate chF20
+conda activate chF20
 jupyter notebook
 ```
 
