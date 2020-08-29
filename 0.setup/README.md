@@ -1,4 +1,4 @@
-# Download and install Anaconda environment for Python 3.7
+# Download and install Anaconda environment for Python 3.8
 
 https://www.anaconda.com/download/
 
@@ -13,7 +13,7 @@ conda create --name chF20
 source activate chF20
 ```
 
-# Check version (should be 3.7.1)
+# Check version
 
 ```sh
 python --version 
