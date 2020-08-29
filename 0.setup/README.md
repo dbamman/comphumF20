@@ -4,7 +4,7 @@ https://www.anaconda.com/download/
 
 # Create new anaconda environment for this class
 ```sh
-conda create --name chF20
+conda create --name chF20 python=3
  ```
 
 # Activate environment
