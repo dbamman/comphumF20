@@ -10,7 +10,7 @@ conda create --name chF20 python=3
 # Activate environment
 
 ```sh
-source activate chF20
+conda activate chF20
 ```
 
 # Check version
