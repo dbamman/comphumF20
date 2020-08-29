@@ -41,7 +41,7 @@ python -m spacy download en
 
 # Use Jupyter notebooks
 
-That's it! Whenever you're ready to use a Jupyter notebook in this setup, open up the terminal and navigate to the folder containing the notebook; then activate the anlp environment to access these libraries and start up the notebook:
+That's it! Whenever you're ready to use a Jupyter notebook in this setup, open up the terminal and navigate to the folder containing the notebook; then activate the chF20 environment to access these libraries and start up the notebook:
 
 ```sh
 source activate chF20
